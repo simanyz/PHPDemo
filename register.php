@@ -1,54 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>注册</title>
+	<title>注册帐号</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="./css/index1.css">
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
 	<style type="text/css">
 		body:{height: 100%;}
 	</style>
 </head>
 <body>
 
-	<div class="index_01" > 
-	<table style="width: 100%;height:100%;" >
-	  <tr>
-	    <td align="center" >
-	      <form action="doregister.php " name="dl" method="post">
-	      <table  align="center" width=350 height=230; style="font-size:25px;">
-	      <tr align="center"> 
-	          <td colspan="2" style="font-size:35px;">注册用户</td>
-	      </tr>
-	      <tr>
-	          <td align="center">用户名</td>
-	          <td>
-	          <input type="name" maxlength="20" name="id" placeholder="手机号/邮箱" style="width:180px;font-size:20px;border-radius: 8px; ">
-	          </td>
-	      </tr>
-	      <tr>
-	          <td align="center">密   码</td>
-	          <td >
-	          <input name="password" type="password" maxlength="16" placeholder="请输入密码" style="width:180px;font-size:20px;border-radius: 8px; ">
-	      </td>
-	      </tr>
-	      <tr>
-	          <td align="center">Again</td>
-	          <td>
-	          <input name="confirmPassword" type="password" maxlength="16" placeholder="请再次输入密码" style="width:180px;font-size:20px;border-radius: 8px; ">
-	          </td>
-	      </tr>
-	      <tr>
-	        <td colspan="2" align="center">
-	        <input type="button" name='zu' value='登陆' οnclick="location.href='index.php'" style="font-size:17px;border-radius: 12px;" class="btn"/>
-	        <input type="reset" name="zu" value="重置" style="font-size:17px;border-radius: 12px;" class="btn"> 
-	        <input type="submit" name="zu" value="注册" style="font-size:17px;border-radius:12px;" class="btn"/>
-	        </td>
-	      </tr>
-	   </table>
-	   </form>
-	    </td>
-	  </tr>
-	</table>
-	</div>
+	<div class="main">
+        <div class="login-form">
+            <h1>注册界面</h1>
+            <div class="head">
+                <img src="images/user.png" alt="" />
+            </div>
+            <form action="registerdemo.php " name="dl" method="post"> 
+                <input type="name" name="id" placeholder="手机号/邮箱" style="width:180px;font-size:20px;border-radius: 8px; width: 93%;">
+
+                <input name="password" type="password"  placeholder="请输入密码" style="width:180px;font-size:20px;border-radius: 8px; width: 93%;"">
+
+				<input name="secondpassword" type="password"  placeholder="请再次输入密码" style="width:180px;font-size:20px;border-radius: 8px;width: 93%;" ">
+
+                <div class="submit">
+                    <input type="button" name='zu' value='登陆' onclick="window.location.href='index.php'" >
+	        <input type="submit" name="zu" value="注册" >
+                </div>
+                
+            </form>
+        </div>
+
+        <div class="copy-right">
+            <p>Be made by<a href="#"> 曾志浩</a></p>
+        </div>
+
+    </div>
 </body>
 </html>

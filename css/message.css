@@ -1,0 +1,63 @@
+.button,.reset,.submit,.button1{
+    padding: 10px 30px 10px 30px;
+    background: #66C1E4;
+    border: none;
+    color: #FFF;
+    box-shadow: 1px 1px 1px #4C6E91;
+    -webkit-box-shadow: 1px 1px 1px #4C6E91;
+    -moz-box-shadow: 1px 1px 1px #4C6E91;
+    text-shadow: 1px 1px 1px #5079A3;
+}
+.button:hover,.reset:hover,.submit:hover,.button1:hover{
+    background: #ff4747;
+}
+.wrapper {
+    width: 600px;
+    margin: 0 auto;
+}
+.ds-post-main {
+    position: relative;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ds-comment-body {
+	height:150px;
+    z-index: 1;
+    position: relative;
+    left: 0;
+    background: #fdeaff;
+    padding: 15px 15px 15px 30px;
+    color: #ffecfd;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.15), 0 1px 0 rgba(255,255,255,.75) inset;
+}
+.ds-comment-body {
+    color: #000000;
+}
+.ds-avatar {
+    z-index: 2;
+    position: absolute;
+    top: 48px;
+    left: -20px;
+    padding: 5px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    box-shadow: -1px 0 1px rgba(0,0,0,.15) inset;
+}
+.ds-avatar a {
+    display: block;
+    padding: 1px;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #B9BAA6;
+    border-radius: 50%;
+    background-color: #fff;
+    -moz-transition: color 0.15s linear;
+    -webkit-transition: color 0.15s linear;
+    transition: color 0.15s linear;
+}
+a {
+    text-decoration: none;
+}
