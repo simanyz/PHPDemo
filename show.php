@@ -102,13 +102,28 @@ header('Content-type:text/html;charset=utf-8');
 		echo "<div class='k'>";
 		echo "<div class='ds-post-main'>";
 		echo "<div class='ds-comment-body'>
-			<span>{$res['name']}  于  {$res['time']}  留言  --> IP地址 : <span>{$res['ip']}</span>
-			<span style='float:right'><a href = 'delete.php?id=".$res['id']."'><input type='submit' class='button1' value='删除'></input></a></span>
-			<p>留言主题 : {$res['title']}   </span></p>
-            <hr width=450px> 
-			<p>{$res['mes']}</p></div><br>";
-			echo "</div>";
-			echo "</div>";
+
+			 <span>
+             {$res['name']}  于  {$res['time']}  留言  --> IP地址 : <span>{$res['ip']}
+             </span>
+
+    		 <span style='float:right'><a href = 'delete.php?id=".$res['id']."'>
+             <input type='submit' class='button1' value='删除'> </input>
+             </a>
+             </span>
+
+    		 <p>留言主题 : {$res['title']}   
+             </span>
+             </p>
+
+             <hr width=450px> 
+
+    		 <p>{$res['mes']}
+             </p>
+             </div>
+             <br>";
+    		 echo "</div>";
+			 echo "</div>";
 	}
 		echo "</div>";
 		//分页代码  
@@ -130,7 +145,7 @@ header('Content-type:text/html;charset=utf-8');
                     echo "<div style='width:25px;display: inline-block;margin-right: 10px;'>",$i,"</div>";
                       
                 }else{  
-                    //echo  '<a href="show.php?p=',$i,'">',$i,'</a>';
+              
 					echo '<a href="show.php?p=',$i,'">',"<div style='width:25px;display: inline-block;margin-right: 10px;'>",$i,'</div>','</a>';
                 }
             }

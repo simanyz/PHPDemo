@@ -25,12 +25,11 @@
                 <p><a href="#">忘记密码 ?</a></p>
             </form>
         </div>
-        <!--//End-login-form-->
-        <!-----start-copyright---->
+
         <div class="copy-right">
             <p>Be made by<a href="#"> 曾志浩</a></p>
         </div>
-        <!-----//end-copyright---->
+
     </div>
 
 </body>

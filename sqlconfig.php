@@ -1,5 +1,5 @@
 <?php
-
+//创建数据库类，方便直接调用方法
 	class DB{
 		//数据库连接函数
 		function connect(){
