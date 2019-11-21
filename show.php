@@ -81,7 +81,7 @@ header('Content-type:text/html;charset=utf-8');
   <?php
 	$con=@mysqli_connect("127.0.0.1","root","123456","zzh");
 	if (!$con) {
-		die("数据库连接失败".mysqli_connect_error());
+		die(" 数据库连接失败 ".mysqli_connect_error());
 	}
 	mysqli_query($con,"set names 'utf-8'");
 

@@ -6,7 +6,7 @@ header('Content-type:text/html;charset=utf-8');
 <!DOCTYPE html>
 <html>
 <head>
-	<title>添加留言</title>
+	<title> 添加留言 </title>
 	<link rel="stylesheet" type="text/css" href="./css/formcss.css">
 
 	<style type="text/css">

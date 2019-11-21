@@ -18,7 +18,7 @@
 			if (mysqli_query($conn,$sql)) {
 				echo "<script language='javascript'> alert('注册成功!');location='index.php'; </script>";
 			}else{
-				echo "注册失败,错误内容为：".$conn->error;
+				echo " 注册失败,错误内容为： ".$conn->error;
 			}
 		}
 
@@ -40,7 +40,7 @@
 			if (mysqli_query($conn,$sql)) {
 				echo "<script language='javascript'> alert('留言成功!');location='show.php'; </script>";
 			}else{
-				echo "插入数据出错，错误内容为: ".$conn->error;
+				echo " 插入数据出错，错误内容为:  ".$conn->error;
 			}
 		}
 

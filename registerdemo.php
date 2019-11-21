@@ -8,7 +8,7 @@ $password=$_POST['password'];
 $secondpassword=$_POST['secondpassword'];
 
 if ($password != $secondpassword) {
-	echo "<script> alert('输入的密码和确认密码不相同');location='register.php';</script>";
+	echo "<script> alert(' 输入的密码和确认密码不相同 ');location='register.php';</script>";
 }
 
 $alt="select * from user where username = '$id'";
