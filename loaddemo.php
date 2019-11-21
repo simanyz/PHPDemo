@@ -15,7 +15,7 @@ $logincheck=new DB();
 	$res=$logincheck->usercheck($link,$sql);
 
 	if ($res) {
-		echo "<script> alert('登录成功');location='show.php';</script>";
+		echo "<script> alert(' 登录成功');location='show.php';</script>";
 		
 	};
 	if (!$res) {
