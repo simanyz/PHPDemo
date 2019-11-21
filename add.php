@@ -35,7 +35,7 @@ header('Content-type:text/html;charset=utf-8');
                 color: white;
                 width: 100%;
                 height: 1.8em;
-                font-size: 1.5em;
+                font-size:  1.5em;
                 text-align: center;
             }
 

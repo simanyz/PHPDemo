@@ -12,7 +12,7 @@
 
 	<div class="main">
         <div class="login-form">
-            <h1> 注册界面 </h1>
+            <h1>注册界面</h1>
             <div class="head">
                 <img src="images/user.png" alt="" />
             </div>

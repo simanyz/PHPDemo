@@ -21,7 +21,7 @@ if ($title!=null) {
 		$res=$adddemo->insertdemo($link,$sql);
 	}
 	if ($author==null) {
-		echo "<script>alert('请输入姓名！');location='add.php';</script>";
+		echo "<script>alert(' 请输入姓名！');location='add.php';</script>";
 	}
 }
 if ($title==null) {

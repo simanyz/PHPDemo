@@ -22,7 +22,7 @@
                     <input type="submit" name="denglu" onclick="myFunction()" value="登录">
 					<input type="button" name="zhuce" value="注册" onclick="window.location.href='register.php'">
                 </div>
-                <p><a href="#">忘记密码 ?</a></p>
+                <p><a href="#"> 忘记密码 ?</a></p>
             </form>
         </div>
 
